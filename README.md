@@ -12,7 +12,8 @@
 * Connect your android phone with USB cable
 * Open cmd and give ```adb devices``` command to get uuid 
 * Open Appium and start server. Then open inspector tool
-* In the jsondata section, paste the following desired capabilities
+* In the **JSON Representation** section, paste the following desired capabilities after adding your uuid and version
+
 ```
 {
   "deviceName": "My Android",
