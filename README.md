@@ -3,7 +3,7 @@
 * Install Android Studio latest version
 * Install Appium 1.17.1
 * Install jdk 8 or any LTS version
-* Configure **ANDROID_HOME** and **JAVA_HOME**
+* Configure **ANDROID_HOME**, **JAVA_HOME** and **GRADLE_HOME**
 * Stable internet connection
 
 ## How to run this project
