@@ -8,7 +8,7 @@
 
 ## How to run this project
 ### Appium
-* Turn on **Developers Mode** on your android phone
+* Turn on **Developer Options** on your android phone
 * Connect your android phone with USB cable
 * Open cmd and give ```adb devices``` command to get uuid 
 * Open Appium and start server. Then open inspector tool
