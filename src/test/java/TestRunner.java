@@ -8,17 +8,15 @@ public class TestRunner extends AppLaunch {
 
     @Test(priority = 0)
     public void plus() throws MalformedURLException, InterruptedException {
-        AppLaunch appLaunch = new AppLaunch();
-        testCase = new TestCases(appLaunch.setUp());
+        testCase = new TestCases(driver);
         String result = testCase.plusOp();
         Assert.assertEquals(result, "12");
     }
 
     @Test(priority = 1)
     public void multiply() throws MalformedURLException, InterruptedException {
-        AppLaunch appLaunch = new AppLaunch();
-        testCase = new TestCases(appLaunch.setUp());
-        String result = testCase.mulOp();
+        testCase = new TestCases(driver);
+        String result = testCase.plusOp();
         Assert.assertEquals(result, "35");
     }
 }
