@@ -14,7 +14,7 @@ public class AppLaunch {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("deviceName", "My Android");
         cap.setCapability("platformName", "Android");
-        cap.setCapability("uuid", "428b5a359805");
+        cap.setCapability("uuid", "Enter your uuid here");
         cap.setCapability("appPackage", "com.google.android.calculator");
         cap.setCapability("appActivity", "com.android.calculator2.Calculator");
         cap.setCapability("autoGrantPermissions", true);
