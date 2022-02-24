@@ -27,6 +27,7 @@
 * Click **Start Server**
 ### Java Client
 * Clone the repo
+* Enter your uuid in the **AppLaunch.java** class
 * Open cmd in the root folder
 * Give following command
 ```
