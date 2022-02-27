@@ -27,7 +27,7 @@
 * Click **Start Server**
 ### Java Client
 * Clone the repo
-* Enter your uuid in the **AppLaunch.java** class
+* Enter your uuid in the [AppLaunch](https://github.com/asif-shahriar/Appium-Automation/blob/main/src/test/java/AppLaunch.java "AppLaunch.java") class
 * Open cmd in the root folder
 * Give following command
 ```
